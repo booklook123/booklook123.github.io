@@ -1,0 +1,81 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50; /* Зеленый */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.waste-type {
+    width: 200px;
+    margin: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.waste-type img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed; /* Фиксированный футер */
+        bottom: 0;
+        width: 100%;
+}
+.benefits-container {
+    display: flex;
+    flex-wrap: wrap; /* Чтобы блоки переносились на новую строку при необходимости */
+    justify-content: center; /* Центрирование блоков */
+}
+
+.benefit {
+    width: 300px; /* Ширина блока */
+    margin: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.benefit img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
